@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+</head>
+<body>
+
+    <h1>POC how $scope.$evalAsync() is not compatible with $scope.$digest()</h1>
+
+    <p>Open the console, then start ticks, and click the next button -- now look at the console -- the ID isn't updated to the view before you click again. Look at the stack trace, it's from the ClockController.</p>
+
+    <section>
+        <h3>Events</h3>
+        <my-event></my-event>
+    </section>
+
+    <section>
+        <h3>Clock</h3>
+        <my-clock></my-clock>
+    </section>
+
+</body>
+</html>

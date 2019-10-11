@@ -1,0 +1,31 @@
+{
+  "name": "angularjs-evalasync-problem",
+  "version": "1.0.0",
+  "description": "POC for AngularJS evalAsync with scope digest problem",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gist.github.com/ada230ecb408f34b76135f406933ebc2.git"
+  },
+  "author": "Jaakko Heusala <jhh@sendanor.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gist.github.com/ada230ecb408f34b76135f406933ebc2"
+  },
+  "homepage": "https://gist.github.com/ada230ecb408f34b76135f406933ebc2",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  }
+}

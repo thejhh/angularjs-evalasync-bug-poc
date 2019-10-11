@@ -1,0 +1,5 @@
+<div>{{$ctrl.id}}</div>
+<button ng-click="$ctrl.onClick()">next</button>
+
+<button ng-if="!$ctrl.isTicksStarted()" ng-click="$ctrl.startTicks()">start ticks</button>
+<button ng-if="$ctrl.isTicksStarted()" ng-click="$ctrl.stopTicks()">stop ticks</button>
